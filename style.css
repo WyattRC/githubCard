@@ -1,0 +1,81 @@
+html{
+  background-color: black;
+}
+
+body{
+  background-color: #1C1C1C;
+}
+.Container{
+  margin-top: 12.5%;
+}
+#everythingToKnow{
+  background-color: #F0F0F0;
+  height: 400px;
+}
+span{
+  color: #41BFBA;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+header{
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+header h1 {
+padding-top: 20px;
+font-family: 'Lato', sans-serif;
+font-size: 50px;
+}
+img {
+  margin: 0 auto;
+  margin-right: 5%;
+  align-self: center;
+  height: 130px;
+  width: 130px;
+  /*full circle*/
+  border-radius: 360px;
+  float: right;
+}
+#profileBasics{
+  float: left;
+  margin-left: 15%;
+}
+#profileBasics h3{
+  font-size: 35px;
+  font-weight: 900;
+  font-family: 'Palatino';
+}
+#biography {
+  width: 30%;
+  padding-top: .5px;
+  float: left;
+  margin-left: 5%;
+}
+#biography h3{
+  padding-left: 30px;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: 'Palatino';
+}
+#biography p{
+  border-left: 1px solid grey;
+  padding-left: 30px;
+  color: grey;
+}
+
+p{
+  font-size: .95rem;
+  color: grey;
+}
+
+#profilePic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  padding-left: 30px;
+  padding-top: 90px;
+}
